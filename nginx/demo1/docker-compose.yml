@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  backend:
+    container_name: chybeta.backend
+    restart: always
+    build: ./backend
+    ports:
+      - "8000:8000"
+    command: gunicorn -w 1 -b :8000 gunicorn_demo:app
+
+
+  nginx:
+    container_name: chybeta.nginx
+    restart: always
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
