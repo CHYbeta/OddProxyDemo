@@ -3,16 +3,16 @@ version: '3'
 services:
 
   backend:
-    container_name: chybeta.backend.demo1
+    container_name: chybeta.backend.demo2
     restart: always
     build: ./backend
     ports:
       - "8000:8000"
-    command: gunicorn -w 1 -b :8000 gunicorn_demo:app
+    command: uvicorn --log-level debug --workers 1 --host 0.0.0.0 --port 8000 uvicorn_demo:app
 
 
   nginx:
-    container_name: chybeta.nginx.demo1
+    container_name: chybeta.nginx.demo2
     restart: always
     build: ./nginx
     ports:

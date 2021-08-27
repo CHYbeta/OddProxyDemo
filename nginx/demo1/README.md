@@ -2,6 +2,9 @@
 
 ```
 ./start.sh
+
+# 关闭
+docker-compose rm -fs
 ```
 
 ![](static/1.jpg)
