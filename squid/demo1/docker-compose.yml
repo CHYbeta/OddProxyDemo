@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+
+  backend:
+    container_name: chybeta.squid.demo1.backend
+    restart: always
+    build: ./backend
+    ports:
+      - "8000:8000"
+    command: python3 server.py
+    networks:
+      app_net:
+        ipv4_address: 172.0.0.200
+
+  squid:
+    container_name: chybeta.squid.demo1.squid
+    image: sameersbn/squid:3.5.27-2
+    restart: always
+    volumes:
+      - "./squid/squid.conf:/etc/squid/squid.conf"
+    ports:
+      - "3128:3128"
+    depends_on:
+      - backend
+    networks:
+      app_net:
+        ipv4_address: 172.0.0.201
+
+networks:
+  app_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.0.0.1/24"
