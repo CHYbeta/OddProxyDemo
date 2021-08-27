@@ -1,2 +1,5 @@
 # Nginx
-[Nginx特殊场景绕过之一](https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo1/README.md)
+[Nginx 场景绕过之一: Nginx + Gunicorn](https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo1/README.md)
+
+# Squid
+[Squid 绕过场景之一: URN bypass ACL](https://github.com/CHYbeta/OddProxyDemo/blob/master/squid/demo1/README.md)
