@@ -5,3 +5,6 @@
 
 # Squid
 [Squid 场景绕过之一: URN bypass ACL](https://github.com/CHYbeta/OddProxyDemo/blob/master/squid/demo1/README.md)
+
+# HAProxy
+[HAProxy 场景绕过之一: CVE-2021-40346 Content-Length 整型溢出与HTTP Request Smuggling](https://github.com/CHYbeta/OddProxyDemo/tree/master/haproxy/demo1)
