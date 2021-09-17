@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  backend_server1:
+    build: ./backend
+    expose:
+      - 5000
+    command: gunicorn -w 1 -b :5000 gunicorn_demo:app
+#    command: python3 socket_server.py
+
+  httpd_mod_proxy:
+    build: ./httpd_mod_proxy
+    links:
+      - backend_server1
+    ports:
+      - 443:443
