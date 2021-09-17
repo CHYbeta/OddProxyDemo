@@ -8,3 +8,6 @@
 
 # HAProxy
 [HAProxy 场景绕过之一: CVE-2021-40346 Content-Length 整型溢出与HTTP Request Smuggling](https://github.com/CHYbeta/OddProxyDemo/tree/master/haproxy/demo1)
+
+# mod_proxy
+[Apache Module mod_proxy 场景绕过之一: Request Method white spaces + Gunicorn CVE-2021-33193](https://github.com/CHYbeta/OddProxyDemo/tree/master/mod_proxy/demo1)
