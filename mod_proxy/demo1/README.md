@@ -24,5 +24,7 @@ ProxyPass "/backend" http://backend_server1:5000
 绕过
 ![](static/3.png)
 
+具体可参考 [Apache Module mod_proxy 场景绕过之一: Request Method white spaces](https://t.zsxq.com/eiM37Y3)
+
 # Reference
 https://httpd.apache.org/security/vulnerabilities_24.html
