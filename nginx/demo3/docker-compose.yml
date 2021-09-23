@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  backend:
+    container_name: chybeta.backend.demo3
+    restart: always
+    image: vulhub/weblogic:12.2.1.3-2018
+    ports:
+      - "7001:7001"
+
+  nginx:
+    container_name: chybeta.nginx.demo3
+    restart: always
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
