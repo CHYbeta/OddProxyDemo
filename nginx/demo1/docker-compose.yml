@@ -8,7 +8,7 @@ services:
     build: ./backend
     ports:
       - "8000:8000"
-    command: gunicorn -w 1 -b :8000 gunicorn_demo:app
+    command: gunicorn -w 1 -b :8000 gunicorn_demo:app --log-level DEBUG
 
 
   nginx:
