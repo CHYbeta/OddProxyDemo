@@ -3,7 +3,7 @@
 
 [Nginx 场景绕过之二: 斜杠(trailing slash) 与 #（Weblogic为例）](https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo2/README.md)
 
-[Nginx 场景绕过之三: 斜杠(trailing slash) 与 ;（Weblogic为例）](https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo2/README.md)
+[Nginx 场景绕过之三: 斜杠(trailing slash) 与 ;（Weblogic为例）](https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo3/README.md)
 
 
 # Squid
