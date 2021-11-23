@@ -25,5 +25,4 @@ docker-compose rm -fs
 
 具体可参考 [Apache APISIX uri-blocker 场景绕过之一：$request_uri](https://articles.zsxq.com/id_6owftl6j1iw8.html)
 
-# Reference
 
