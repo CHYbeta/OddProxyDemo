@@ -7,8 +7,14 @@
 docker-compose rm -fs
 ```
 
+![](static/2.png)
 
-具体可参考 [Apache Module mod_proxy 场景绕过之一: SSRF CVE-2021-40438](https://t.zsxq.com/MFEyvBa)
+
+
+![](static/1.png)
+
+
+具体可参考 [Apache Module mod_proxy 场景绕过之三: CVE-2022-31813](https://articles.zsxq.com/id_c78wzuqs2pgm.html)
 
 # Reference
 https://httpd.apache.org/security/vulnerabilities_24.html
