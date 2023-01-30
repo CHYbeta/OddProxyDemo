@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  nginx:
+    container_name: chybeta.nginx.demo4
+    restart: always
+    build: ./nginx
+    ports:
+      - "443:443"
+
