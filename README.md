@@ -5,6 +5,7 @@
 
 [Nginx 场景绕过之三: 斜杠(trailing slash) 与 ;（Weblogic为例）](https://github.com/CHYbeta/OddProxyDemo/blob/master/nginx/demo3/README.md)
 
+[Nginx 场景之四： Nginx X-Accel-Redirect 导致的文件读取](https://github.com/CHYbeta/OddProxyDemo/tree/master/nginx/demo5)
 
 # Squid
 [Squid 场景绕过之一: URN bypass ACL](https://github.com/CHYbeta/OddProxyDemo/blob/master/squid/demo1/README.md)
